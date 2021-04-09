@@ -4,5 +4,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+
+    .timer {
+        text-align: center;
+        width: 150px;
+        padding: 15px;
+        background: rgba($color: #c77575, $alpha: 1.0);
+        border-radius: 8px 8px 0 0;
+    }
+
+    .buttons {
+        text-align: center;
+        width: 150px;
+        padding: 15px;
+        background: #F3F3F3;
+        border-radius: 8px 8px 0 0;
+    }
+
 
 }
